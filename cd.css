@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+#menu {
+	background: #FFFFFF;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 12.5em;
+}
+#menu li {
+	font: 95% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding: 2px 8px;
+}
+#menu a {
+	background: # 5F6285;
+	border-bottom: 1px solid #5B5C5D;
+	color: #5B5C5D;
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 2px 8px;
+	text-decoration: none;
+}
+#menu a:hover {
+	background: #010165 left center no-repeat;  /* Mouse hover color .. same color for highlightbox below */
+	color: #FFFFFF;
+	padding-bottom: 2px;
+}
+
+.borderTable {	
+border: 2px solid #000000;
+}
+
+
+
+p, h1, h2, h3, h4, h5, h6, ul, ol
+{font-family:Verdana, Geneva, sans-serif;}
+
+p, ul, ol {
+	font-size:12px;
+}
+
+span {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+.highlightbox {
+	background-color:#ce332f;
+	color: white;
+	font-weight:bold;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:2px;
+}
+
+/* TABLES */
+
+.tableformat1
+{
+    background-color: #FFFFFF;
+    border: thick;
+	border-color:#808080
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#ffffff));
+    background: -moz-linear-gradient(#ffffff, #ffffff);
+    -webkit-box-shadow:2px 2px 2px rgba(0,0,0,.35);
+    -moz-box-shadow:2px 2px 2px rgba(0,0,0,.35);
+    box-shadow:2px 2px 2px rgb (0,0,0,.35);
+}
+
+#wrapper {
+padding: 0px;	
+
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+
+border: 2px solid #B3AEAD;
+
+-moz-box-shadow: 0 0 10px 10px #888;
+-webkit-box-shadow: 0 0 10px 10px #888;
+box-shadow: 0 0 10px 10px #888;
+
+}
+
+.cfbutton {
+    border: thin;
+    background-color: #F00;
+	color:#FFF;
+	border: 2px solid #000;
+	height:23px;
+	font-weight:bold;
+	font-size:11px;
+}
+
+.cfbutton:hover {
+    border: thin;
+    background-color: #000080;
+	color:#ffffff;
+	border: 2px solid #000;
+	height:23px;
+	font-weight:bold;
+	font-size:11px;
+}
